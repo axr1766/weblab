@@ -1,0 +1,28 @@
+h1
+{
+  color: red;
+  font-family: 'bebas neue';m
+}
+
+
+.container
+{
+  margin:auto;
+  padding: 20px;
+  background-color: #9c4ff5;
+  width: 50%;
+  box-shadow: 15px 20px 10px rgb(219,219,219)
+  border-radius: 8px;
+
+}
+
+.container h1 {
+  font-size: 4em;
+}
+
+/* this is a comment */
+#dog
+{
+  width: 80%;
+  margin:auto;
+}
