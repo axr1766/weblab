@@ -200,7 +200,14 @@ transition-timing-function: ease-in-out;
 
 /* You should put your transition code here: */
 
-
+.animation
+{
+  transition: transform 1000ms;
+}
+.animation:hover
+{
+  transform: scale(.5,.5);
+}
 
 /* ---------------------------------- ENDDEBUG SECTION ------------------------------------------- */
 
