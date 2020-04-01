@@ -46,7 +46,7 @@ hr
 .gridtitle
 {
   /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
-  padding-top: 0%;
+  padding-top: 5%;
   text-align: center;
   font-family: 'Bebas Neue';
   font-size: 75px;
