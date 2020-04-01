@@ -38,6 +38,7 @@ hr
     margin: 0px;
     left: 5%;
     top: 25%;
+    text-decoration: none;
     position: relative;
     color: white;
     font-family: 'Bebas Neue';
@@ -179,12 +180,13 @@ hr
 {
   width: 100%;
 }
+
 .whiteBox
 {
   margin: 0;
   padding: 10px;
-  background-color: white;
-  font-size: 12px;
+  opacity: 100%;
+  font-size: 24px;
 }
 
 /* END GRID IMAGES */
