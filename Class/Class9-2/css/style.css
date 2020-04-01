@@ -90,9 +90,13 @@ body{
   margin: auto;
   background-color: pink;
 }
-
-
-
+.secondbox
+{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+background-color: green;
+}
 
 
 nav ul
@@ -203,6 +207,10 @@ h1
   margin: 0;
   padding: 0;
   display: inline;
+}
+.smallGridBug div:nth-child(3) p
+{
+  font-size: 50px
 }
 
 .gridBug div ul li a
