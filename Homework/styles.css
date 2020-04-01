@@ -6,8 +6,67 @@ h1
 {
     color: red;
     font-family: 'Bebas Neue';
+    text-align: center;
 }
 /* this is class on the div in my HTML */
+.header
+{
+  height: 10vh;
+  width: 100%;
+  /* WHEN YOU USE RGB YOU CAN ADD A FOURTH VALUE. THE ALPHA OR OPACITY */
+  background-color: rgb(42, 42, 42, 1);
+  /* POSITION CAN BE USED IN DIFFERENT WAYS. FIXED WILL KEEP YOUR CONTENT IN THE VIEWPORT */
+  position: fixed;
+  top: 0px;
+  /* THE Z-INDEX WILL LET YOU CHOOSE THE ORDER OF YOUR ELEMENTS IN THIS CASE
+  IT WILL POSITION ABOVE EVERYTHING */
+  z-index: 1000;
+}
+.header h1
+{
+    width: 50%;
+    margin: 0px;
+    left: 5%;
+    top: 25%;
+    position: relative;
+    text-align: left;
+    color: red;
+    font-family: 'Bebas Neue';
+}
+.gridtitle
+{
+  /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
+  padding-top: 0%;
+  text-align: center;
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: white;
+}
+
+.header ul
+{
+  float: right;
+  width: 40%;
+  list-style-type: none;
+  margin-top: -15px;
+}
+.header nav ul li
+{
+  display: inline;
+  margin: 30px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.header nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* END OF MY HEADER WITH NAVIGATION */
+
+
 .container
 {
   margin: auto;
@@ -65,5 +124,99 @@ h1
 #dog
 {
   width: 80%;
+  margin: auto;
+}
+
+.footer
+{
+    height: 20vh;
+    background-color: #999999;
+}
+.footer div
+{
+position:
+  width: 100%;
+  margin:  auto;
+  color: white;
+
+}
+
+.footer
+{
+ text-align: center;
+ position:relative;
+ padding-top: -10%;
+}
+
+
+.body
+{
+    padding-top: 200px
+}
+
+.intro
+{
+  width: 40%;
+  height: 10vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% ;
+  grid-template-columns: 1fr ;
+  grid-row-gap: 5px;
+  grid-column-gap: 30px;
+}
+  .intro h1
+  {
+    text-align: center;
+  }
+.andypic
+{
+   border-radius: 18px;
+   max-width: 300px;
+   height: auto;
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+box-shadow: 10px 10px 30px grey
+}
+
+.myphoto
+{
+  padding-top: 60px
+}
+.myphoto
+{
+  position: relative;
+  text-align: center;
+}
+.skills
+{
+  width: 20%;
+  height: 10vh;
+  position: relative;
+  margin: auto;
+}
+.subtitles
+{
+  color: red;
+  font-family: 'Bebas Neue';
+}
+.workexp h1
+{
+  padding-top: 50px
+
+}
+.workexp
+{
+  width: 40%;
+position: relative;
+  margin: auto;
+}
+
+.hobbies
+{
+  width:20%;
+  position: relative;
   margin: auto;
 }

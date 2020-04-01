@@ -165,7 +165,6 @@ transition-timing-function: ease-in-out;
 }
 .cardLeft
 {
-
   float: left;
   width: 42%;
 }
@@ -178,11 +177,11 @@ transition-timing-function: ease-in-out;
   float: right;
   width: 42%;
 }
-.cardRight .colorBox
+.colorBox
 {
   margin: auto;
   height: 600px;
-  background-color: teal;
+  background-color: lightblue;
 }
 .cardBase
 {
@@ -191,22 +190,23 @@ transition-timing-function: ease-in-out;
   font-size: 12px;
   background-color: white;
 }
-
 .transitionContainer
 {
   width: 50%;
   margin-top: 100%;
 }
-
-/* You should put your transition code here: */
-
-.animation
+.trigger2
 {
-  transition: transform 1000ms;
+  width: 150px;
+  height: 150px;
 }
-.animation:hover
+.animation {
+transition: transform 2000ms ease-in-out 10ms, background-color 2000ms ease-in-out;
+}
+.trigger2:hover .animation
 {
-  transform: scale(.5,.5);
+  transform: scale(2,2) rotate(360deg) translate(200px, 50px);
+  background-color: lightgreen;
 }
 
 /* ---------------------------------- ENDDEBUG SECTION ------------------------------------------- */
