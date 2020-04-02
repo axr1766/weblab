@@ -38,11 +38,19 @@ hr
     margin: 0px;
     left: 5%;
     top: 25%;
-    text-decoration: none;
+
     position: relative;
     color: white;
     font-family: 'Bebas Neue';
 }
+
+.header h1 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+
 .gridtitle
 {
   /* PUT SOME SPACE ON TOP OF THE TITLE SO IT CAN BE IN THE MIDDLE OF THE IMAGE */
