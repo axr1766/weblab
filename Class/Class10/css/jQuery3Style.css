@@ -92,7 +92,7 @@ height: 100%;
   display: grid;
   grid-template-areas:
   "he he he"
-  ". na ."
+  "na na na"
   "ma ma ma"
   "fo fo fo"
   ;
