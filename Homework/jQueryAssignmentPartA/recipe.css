@@ -37,18 +37,6 @@
   font-size: 120%;
 }
 
-.body
-{
-  padding-top: 20px;
-  width: 40%;
-  height: 10vh;
-  margin: auto;
-  display: grid;
-  grid-template-rows: 50% ;
-  grid-template-columns: 1fr ;
-  grid-row-gap: 5px;
-  grid-column-gap: 30px;
-}
 
 .body
 {
